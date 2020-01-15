@@ -12,7 +12,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/centos:centos7
+      - image: circleci/centos:latest
     steps:
       - checkout
       - run: echo "A first hello"
