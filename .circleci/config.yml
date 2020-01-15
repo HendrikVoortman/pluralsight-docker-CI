@@ -12,7 +12,8 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/centos:latest
+#      - image: circleci/centos:latest
+      - image: circleci/node:10.16.3
     steps:
       - checkout
       - run: echo "A first hello"
